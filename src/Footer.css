@@ -1,0 +1,15 @@
+.Footer {
+  display: block;
+  text-align: center;
+}
+
+.Footer a {
+  color: var(--main-dark-color);
+}
+
+.Footer .signature {
+  font-size: 19px;
+  font-family: var(--main-font);
+  color: var(--dark-font-color);
+  font-weight: bold;
+}

@@ -23,7 +23,7 @@ export default function Dictionary() {
 
   return (
     <div className="Dictionary">
-      <h1>Dictionary Deluxe</h1>
+      <h1 className="mb-3 mt-3">Dictionary Deluxe</h1>
       <form onSubmit={handleSubmit}>
         <input
           onChange={handleInputChange}

@@ -1,20 +1,24 @@
 :root {
-  --main-dark-color: rgb(187, 125, 125);
-  --main-light-color: #ffcbcb;
+  --main-dark-color: rgb(24, 148, 138);
+  --main-light-color: #a5f7ec;
+  --main-font: "Pinyon Script", cursive;
+  --dark-font-color: #132743;
 }
 
 .Dictionary {
-  padding: 25px 0 400px 0;
+  padding: 25px 0 200px 0;
   margin: 25px;
-  border: 10px dotted var(--main-dark-color);
+  border: 10px solid var(--main-dark-color);
   border-radius: 15px;
   background-color: var(--main-light-color);
   text-align: center;
-  color: #132743;
+  color: var(--dark-font-color);
 }
 
 .Dictionary h1 {
-  font-size: 50px;
+  font-family: var(--main-font);
+  font-weight: bold;
+  font-size: 58px;
 }
 
 .Dictionary .search-button,
