@@ -4,7 +4,8 @@
 }
 
 .Footer a {
-  color: var(--main-dark-color);
+  color: var(--dark-font-color);
+  font-weight: bold;
 }
 
 .Footer .signature {

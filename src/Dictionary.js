@@ -30,9 +30,9 @@ export default function Dictionary() {
           className="input-field"
           autoFocus={true}
           type="search"
-          placeholder="your word"
+          placeholder="enter a word .."
         />
-        <input className="search-button" type="submit" value="look me up" />
+        <input className="search-button" type="submit" value="show results" />
       </form>
       <Results data={results} />
     </div>
