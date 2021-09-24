@@ -1,43 +1,43 @@
 :root {
-  --main-dark-color: rgb(24, 148, 138);
-  --main-light-color: #a5f7ec;
+  --dark-color: #303242;
+  --middle-color: #ba6c65;
+  --light-color: #f7d2af;
   --main-font: "Pinyon Script", cursive;
-  --dark-font-color: #132743;
 }
 
 .Dictionary {
   padding: 25px 0 200px 0;
   margin: 25px;
-  border: 10px solid var(--main-dark-color);
+  border: 5px solid var(--dark-color);
   border-radius: 15px;
-  background-color: var(--main-light-color);
+  background-color: var(--middle-color);
   text-align: center;
-  color: var(--dark-font-color);
+  color: var(--dark-color);
 }
 
 .Dictionary h1 {
   font-family: var(--main-font);
   font-weight: bold;
-  font-size: 58px;
+  font-size: 65px;
 }
 
 .Dictionary .search-button,
 .Dictionary .input-field {
   padding: 6px;
   margin: 7px;
-  border: 5px solid var(--main-dark-color);
+  border: 5px solid var(--dark-color);
   border-radius: 7px;
   font-size: 25px;
   font-weight: bold;
 }
 
 .Dictionary .search-button {
-  color: var(--main-dark-color);
-  background-color: var(--main-light-color);
+  color: var(--dark-color);
+  background-color: var(--middle-color);
   transition: all 300ms linear;
 }
 
 .Dictionary .search-button:hover {
-  color: var(--main-light-color);
-  background-color: var(--main-dark-color);
+  color: var(--middle-color);
+  background-color: var(--dark-color);
 }
