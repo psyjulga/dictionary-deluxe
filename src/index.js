@@ -8,7 +8,7 @@ import "bootstrap/dist/css/bootstrap.css";
 export default function App() {
   return (
     <div className="App container">
-      <Dictionary myMood="just" />
+      <Dictionary myKeyword="cat" />
       <Footer />
     </div>
   );

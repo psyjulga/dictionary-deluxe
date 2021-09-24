@@ -4,7 +4,7 @@ import "./Dictionary.css";
 import Results from "./Results";
 
 export default function Dictionary(props) {
-  let [keyword, setKeyword] = useState(props.myMood);
+  let [keyword, setKeyword] = useState(props.myKeyword);
   let [results, setResults] = useState(null);
   let [loaded, setLoaded] = useState(false);
 
