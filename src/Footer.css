@@ -8,6 +8,10 @@
   font-weight: bold;
 }
 
+.Footer a:hover {
+  color: var(--middle-color);
+}
+
 .Footer .signature {
   font-size: 19px;
   font-family: var(--main-font);

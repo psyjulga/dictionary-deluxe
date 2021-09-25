@@ -10,6 +10,7 @@ export default function Phonetics(props) {
         href={props.data.audio}
         target="_blank"
         rel="noreferrer"
+        title="listen to phonetic"
       >
         🔊
       </a>

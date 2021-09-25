@@ -1,0 +1,23 @@
+section.Photos {
+  background-color: #ffde74;
+  padding: 30px;
+  margin: 30px 230px 30px 230px;
+  border: 3px solid var(--dark-color);
+  border-radius: 15px;
+}
+
+.Photos img {
+  padding: 8px;
+  background-color: var(--middle-color);
+  margin-bottom: 20px;
+  border-radius: 15px;
+}
+
+.Photos p.pexels-hint,
+.Photos p.pexels-hint a {
+  color: var(--dark-color);
+}
+
+.Photos p.pexels-hint a:hover {
+  color: var(--middle-color);
+}
