@@ -8,7 +8,7 @@ export default function Photos(props) {
         <div className="row">
           {props.data.map(function (photo, index) {
             return (
-              <div className="col-6">
+              <div className="col-6" key={index}>
                 <a
                   href={photo.src.original}
                   target="_blank"
@@ -17,7 +17,6 @@ export default function Photos(props) {
                 >
                   <img
                     className="img-fluid"
-                    key={index}
                     src={photo.src.landscape}
                     alt="pexels"
                   />
