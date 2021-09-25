@@ -1,3 +1,6 @@
 body {
   background-color: rgb(247, 210, 175);
+  background-image: url(books.jpg);
+  background-attachment: fixed;
+  background-size: cover;
 }
