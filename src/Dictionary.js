@@ -55,7 +55,11 @@ export default function Dictionary(props) {
             type="search"
             placeholder="enter a word .."
           />
-          <input className="search-button" type="submit" value="show results" />
+          <input
+            className="search-button d-none d-md-inline-block"
+            type="submit"
+            value="show results"
+          />
         </form>
         <Results data={results} />
         <Photos data={photos} />

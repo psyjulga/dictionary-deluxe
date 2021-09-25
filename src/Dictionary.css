@@ -6,7 +6,7 @@
 }
 
 .Dictionary {
-  padding: 25px 0 200px 0;
+  padding: 25px 0;
   margin: 25px;
   border: 5px solid var(--dark-color);
   border-radius: 15px;
@@ -41,4 +41,15 @@
 .Dictionary .search-button:hover {
   color: var(--middle-color);
   background-color: var(--dark-color);
+}
+
+@media (max-width: 992px) {
+  .Dictionary {
+    padding: 0;
+    margin: 28px 0;
+  }
+  .Dictionary h1 {
+    font-size: 70px;
+    padding: 8px 15px;
+  }
 }

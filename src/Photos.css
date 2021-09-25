@@ -22,3 +22,10 @@ section.Photos {
 .Photos p.pexels-hint a:hover {
   color: var(--middle-color);
 }
+
+@media (max-width: 992px) {
+  section.Photos {
+    padding: 15px;
+    margin: 20px;
+  }
+}

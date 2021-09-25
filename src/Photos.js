@@ -25,7 +25,7 @@ export default function Photos(props) {
             );
           })}
         </div>
-        <p className="pexels-hint">
+        <p className="pexels-hint mt-2">
           Photos from{" "}
           <a
             href="http://www.pexels.com"

@@ -2,7 +2,7 @@
   display: block;
   text-align: center;
   background-color: var(--middle-color);
-  margin: 20px 400px;
+  margin: 30px 400px;
   padding: 7px;
   border-radius: 7px;
 }
@@ -22,4 +22,10 @@
   font-family: var(--main-font);
   color: var(--dark-font-color);
   font-weight: bold;
+}
+
+@media (max-width: 992px) {
+  .Footer {
+    margin: 25px 50px;
+  }
 }
