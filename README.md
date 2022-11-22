@@ -13,4 +13,4 @@ to use myself! 📗
 
 ## Have a look yourself:
 
-['https://dictionary-deluxe.netlify.app/'](https://dictionary-deluxe.netlify.app/)
+[https://dictionary-deluxe.netlify.app/](https://dictionary-deluxe.netlify.app/)
